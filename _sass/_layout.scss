@@ -1,8 +1,33 @@
 body {
-  padding: 10% 20%;
+  padding: 5%;
   color: $text-color;
+  
+  font-size: 16pt;
+  
+  @media screen and (min-width: 500px) {
+    padding: 10% 20%;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  font-size: 100%;
 }
 
 footer {
   color: $grey-color;
+}
+
+a.button {
+  background: GOLD;
+  color: #111;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  font-size: 80%;
+  
+  &:hover {
+    text-decoration: none;
+    background: darken(GOLD, 3%);
+  }
 }
