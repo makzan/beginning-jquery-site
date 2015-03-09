@@ -1,0 +1,15 @@
+<footer>
+  <small>Made in Macao by <a href='http://makzan.net'>makzan</a>. Enjoy the rest of <span id='weekday'>the day</span>.</small>
+</footer>
+
+<script>
+var weekday = document.getElementById('weekday');
+
+if (weekday) {
+  var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  var day = days[(new Date()).getDay()];
+  document.getElementById('weekday').innerHTML = "your&nbsp;" + day;
+}
+  
+
+</script>
