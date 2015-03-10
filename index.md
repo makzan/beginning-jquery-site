@@ -18,4 +18,3 @@ There will be around 10 emails in total for the course. You’ll receive email f
 
 <a href="https://gum.co/jquery101" class='button'>Check and buy the course.</a> 
 
-<script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
