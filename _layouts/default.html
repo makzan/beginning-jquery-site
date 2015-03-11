@@ -13,7 +13,12 @@
 
     
     
-    <script>mixpanel.track("Page show");</script>
+    <script>
+      mixpanel.track("Page show");
+      mixpanel.track_links("a", "click link", {
+          "referrer": document.referrer
+      });
+    </script>
     
     <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
     
