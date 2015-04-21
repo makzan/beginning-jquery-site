@@ -18,4 +18,18 @@ Email course delivers lecture notes into your inbox directly. You learn via read
 
 There will be around 10 emails in total for the course. You’ll receive email for new lecture automatically once a week. If you finish your lecture and would like to read the next one, you may simply click the “Send me next lecture” button to learn more on the next email.
 
+## What you will learn
+
+Through out the course, you will learn:
+
+- How jQuery makes use of powerful selector patters to let us apply command to specific DOM elements. 
+- The power of class toggling combining with CSS class definitions.
+- Handle different events to create interactive web pages.
+- Query Internet resources by using it’s very handy `getJSON` method.
+- Use plugins to enhance our web pages in elegant way.
+- Build tab panels by using basic jQuery show/hide, which is very useful and common action.
+- Build a image slideshow that allow animation in different themes.
+- Build a simple todo-list that manipulate DOM elements with every thing we learned in this course.
+- Finally we’ll create own own plugins to let us reuse and share our own jQuery work.
+
 <a href="https://gum.co/jquery101" class='button'>Check and buy the course.</a> 
